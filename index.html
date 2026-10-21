@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bean & Bloom — кофейня</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI',sans-serif; }
+  body { background:#faf6f1; color:#3e2d23; }
+  header { background:#5d4037; color:#fff; text-align:center; padding:60px 20px; }
+  header h1 { font-size:42px; letter-spacing:2px; }
+  header p { font-style:italic; opacity:.85; margin:10px 0 25px; }
+  .btn { display:inline-block; padding:12px 28px; border-radius:30px; text-decoration:none; margin:5px; font-weight:bold; }
+  .btn-main { background:#ffb74d; color:#3e2d23; }
+  .btn-ghost { border:2px solid #fff; color:#fff; }
+  section { max-width:800px; margin:0 auto; padding:50px 20px; }
+  h2 { text-align:center; margin-bottom:30px; color:#5d4037; }
+  .about p { text-align:center; line-height:1.7; }
+  .features { display:flex; gap:20px; flex-wrap:wrap; justify-content:center; margin-top:30px; }
+  .feature { background:#fff; padding:20px 25px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+  table { width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden; }
+  td { padding:15px 20px; border-bottom:1px solid #f0e6dd; }
+  tr:last-child td { border:none; }
+  td:last-child { text-align:right; font-weight:bold; color:#5d4037; }
+  footer { background:#5d4037; color:#fff; text-align:center; padding:35px 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>☕ Bean & Bloom</h1>
+  <p>Кофе, который будит вдохновение</p>
+  <a class="btn btn-main" href="#contacts">Забронировать столик</a>
+  <a class="btn btn-ghost" href="#">Мы в Telegram</a>
+</header>
+
+<section class="about">
+  <h2>О нас</h2>
+  <p>Уютная кофейня в центре города. Зёрна Specialty-класса, обжариваем сами,
+  десерты — из нашей собственной кондитерской. Wi-Fi и розетки на каждом столе —
+  работайте с удовольствием.</p>
+  <div class="features">
+    <div class="feature">🥐 Свежая выпечка</div>
+    <div class="feature">🔥 Своя обжарка</div>
+    <div class="feature">📶 Wi-Fi + розетки</div>
+  </div>
+</section>
+
+<section>
+  <h2>Меню</h2>
+  <table>
+    <tr><td>Кофе (эспрессо, капучино, латте)</td><td>от 150 ₽</td></tr>
+    <tr><td>Авторские напитки</td><td>от 220 ₽</td></tr>
+    <tr><td>Десерты</td><td>от 180 ₽</td></tr>
+    <tr><td>Завтраки (до 12:00)</td><td>от 290 ₽</td></tr>
+  </table>
+</section>
+
+<footer id="contacts">
+  <h2 style="color:#fff">Контакты</h2>
+  <p>📍 ул. Ленина, 42 &nbsp;|&nbsp; 📞 +7 (999) 123-45-67</p>
+  <p>🕐 Ежедневно с 8:00 до 22:00</p>
+</footer>
+
+</body>
+</html>
